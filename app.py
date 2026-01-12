@@ -147,9 +147,6 @@ predictions = scaler.inverse_transform(
     np.array(predictions).reshape(-1, 1)
 )
 
-st.success("Forecast Ready! ✅")
-
-
 # -------------------------------------------------
 # ENHANCED FORECAST METRICS
 # -------------------------------------------------
@@ -357,4 +354,5 @@ with tab3:
 # -------------------------------------------------
 st.markdown("---")
 st.caption(" © 2026 • Built with Streamlit & Deep Learning Models ")
+
 st.caption(" Developed by Vadla Shiva Kumar ")
