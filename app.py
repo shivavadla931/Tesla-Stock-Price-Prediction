@@ -80,8 +80,8 @@ TIME_STEPS = 60
 # -------------------------------------------------
 # LOAD MODELS (DEPLOYMENT SAFE)
 # -------------------------------------------------
-rnn_model = load_model("rnn_best_model.h5", compile=False)
-lstm_model = load_model("lstm_best_model.h5", compile=False)
+rnn_model = load_model("models/rnn_best_model.h5", compile=False)
+lstm_model = load_model("models/lstm_best_model.h5", compile=False)
 
 # -------------------------------------------------
 # SIDEBAR CONTROLS
@@ -356,3 +356,4 @@ st.markdown("---")
 st.caption(" © 2026 • Built with Streamlit & Deep Learning Models ")
 
 st.caption(" Developed by Vadla Shiva Kumar ")
+
